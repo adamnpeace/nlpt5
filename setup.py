@@ -18,4 +18,10 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ),
+    install_requires=[
+        'nlp==0.2.0',
+        'datasets==1.6.2',
+        'transformers==3.0.0',
+        'torch>=1.8.0'
+    ]
 )
