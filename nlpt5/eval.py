@@ -6,7 +6,7 @@ import torch
 from tqdm.auto import tqdm
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer, HfArgumentParser
 
-from pipelines.data_collator import T2TDataCollator
+from nlpt5.data_collator import T2TDataCollator
 
 device = 'cuda' if torch.cuda.is_available else 'cpu'
 

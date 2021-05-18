@@ -20,9 +20,9 @@ from transformers import (
     set_seed,
 )
 
-from pipelines.trainer import Trainer
-from pipelines.data_collator import T2TDataCollator
-from pipelines.utils import freeze_embeds, assert_not_all_frozen
+from nlpt5.trainer import Trainer
+from nlpt5.data_collator import T2TDataCollator
+from nlpt5.utils import freeze_embeds, assert_not_all_frozen
 
 MODEL_TYPE_TO_TOKENIZER = {
     "t5": T5Tokenizer,
